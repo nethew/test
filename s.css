@@ -1,0 +1,966 @@
+/* HTML TAGS */
+body {
+	font-family: Tahoma;
+	font-size: 11px;
+	background: #333333;
+	color: #000000;
+}
+
+ul {
+}
+
+li {
+}
+
+hr {
+	border-color: #000000;
+	background: #000000;
+}
+
+form {
+}
+
+p {
+}
+
+a {
+	color: #000000;
+	font-weight: bold;
+}
+
+a:hover, a.hover {
+	color: #500000;
+}
+
+a img {
+}
+
+a img:hover, a img.hover {
+}
+
+table, td, th {
+	color: #000000;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.tdl {
+}
+
+.tdr {
+}
+
+table {
+}
+
+/* INPUTY */
+input, select, .nbutton, .button, textarea, .buttonh {
+	border: 1px solid #000000;
+	color: #000000;
+	background: #FFFFE0;
+	font-family: Arial;
+	font-size: 12px;
+}
+.option{
+}
+
+.multisel {
+}
+.listinp {
+}
+select {
+}
+.switch {
+ border-color: #000000; 
+}
+.button, .nbutton, .buttonh {
+	background: #700000;
+	color: #FFFFFF;
+}
+.button:hover, .nbutton:hover, .buttonh {
+	background: #A00000;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.check, .mcheck, .lcheck, .ncheck {
+	background: transparent;
+}
+.mcheck {
+}
+.ncheck {
+}
+label {
+}
+.label_h {
+}
+textarea {
+}
+.w40 {
+}
+.w60 {
+}
+.w100 {
+}
+.w200, .s200 {
+}
+.w300, .n300, .s300 {
+}
+.s300 {
+}
+.w400 {
+}
+.w500 {
+}
+.tfull {
+}
+.ifull {
+}
+.s120 {
+}
+
+.nform {
+}
+
+.nbutton {
+}
+
+/* HLAVNI OKNO LOGIN */
+#login {
+}
+#login #top {
+}
+.errs, .dberr {
+	color: FCE224;
+}
+.dberr {
+	color: red;
+}
+#login #main {
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  min-height: 118px;
+}
+#login #main .linxs {
+}
+#login #bottom {
+}
+#login #bottom .linxs {
+}
+/* LOGIN + REGISTRACE + HESLO */
+#login #main #win, #login #main #reg, #login #main #psw {
+}
+#login #main #win form, #login #main #reg form, #login #main #psw form {
+}
+#login #main #win p, #login #main #reg p, #login #main #psw p {
+}
+#login #main #win .labels, #login #main #reg .labels, #login #main #psw .labels {
+}
+
+/* REGISTRACE + ODESLAT HESLO */
+#login #main #reg, #login #main #psw {
+}
+
+/* MAIN OKNO */
+#mainw {
+	background: transparent;
+}
+
+/* MAIN OKNO - VRSEK */
+#mainw #top, #mainw #topt {
+}
+#mainw #topt {
+}
+#mainw #topm {
+}
+#mainw #top #ico, #mainw #topt #ico {
+/*	border: 1px solid #000000; */
+	background: transparent;
+}
+#mainw #top #info, #mainw #top #infos, #mainw #topt #info, #mainw #topt #infos, #mainw #topm #info {
+	border: 1px solid #000000; border-top: 0px none;
+	color: #FFFFFF;
+	background: #C00000;
+}
+#mainw #top #info a:hover, #mainw #top #infos a:hover, #mainw #topt #info a:hover, #mainw #topt #infos a:hover, #mainw #topm #info a:hover {
+	color: #FFFFFF;
+}
+#mainw #top #info #infouser, #mainw #topt #info #infouser, #mainw #topm #info #infouser {
+}
+#mainw #top #ban, #mainw #topt #ban {
+}
+#mainw #topt #ban {
+}
+#mainw #top #fast, #mainw #topt #fast, #mainw #topm #fast {
+	border: 1px solid #000000; border-top: 0px none;
+	color: #FFFFFF;
+	background: #700000;
+}
+
+/* MAIN OKNO MENU TOP i SPODNI */
+#mainw #winmenu, #mainw #winmenub {
+	background: #700000;
+  border-top: 1px solid #700000;
+  border-bottom: 2px solid #700000;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+#mainw #winmenub {
+	border: 0px;
+  border-bottom: 1px solid #700000;
+  border-top: 2px solid #700000;
+}
+#winmenu .menus, #winmenus .menus:active {
+	background: transparent;
+	color: #FFFFFF;
+}
+#winmenu .menus:hover, #winmenu .menusa {
+	color: #FFFFA0;
+	border-bottom: 2px solid #700000;
+	text-decoration: none;
+}
+#winmenub .menus, #winmenusb .menus:active {
+	border-top: 2px solid #700000;
+	background: transparent;
+	color: #FFFFFF;
+}
+#winmenub .menus:hover, #winmenub .menusa {
+	border-top: 2px solid #700000;
+	background: transparent;
+	color: #FFFFA0;
+	text-decoration: none;
+}
+/* Barva polozky v menu POSTA pokud je neco v poste nove */
+.menusmail {
+  background: #FF0000;
+  color: #FFFF00;
+}
+.menusmail:hover {
+  color: #A00000;
+}
+
+/* SUBMENU */
+#mainw #submenu, #mainw #submenub {
+	border-top: 2px solid #700000;
+  background: #700000;
+	color: #FFFFFF;
+	text-align: center;
+}
+#mainw #submenub {
+	border-top: 0px none;
+	border-bottom: 2px solid #700000;
+}
+#mainw #submenu .menus, #submenub .menus {
+	color: #FFFFFF;
+	background: transparent;
+}
+#mainw #submenu .menus:hover, #submenu .menusa {
+	color: #FFFFA0;
+	background: #700000;
+	-moz-border-radius: 5px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+}
+#mainw #submenub .menus:hover, #submenub .menusa {
+	color: #FFFFA0;
+	background: #700000;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomleft: 0px;
+	-moz-border-radius-bottomright: 0px;
+}
+
+/* MAIN OKNO SPODEK */
+#mainw #bottom {
+	color: #000000;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+/* OKNO PRO INCLUDE */
+#mainw #winmain {
+}
+
+/* OKNO PRO CHYBY A INFORMACE */
+#mainw #winmain .error {
+	border: 1px solid #000000;
+	background: #D8D0A4;
+	color: #555555;
+	font-family: Arial;
+	font-size: 12px;
+  font-weight: bold; 
+}
+
+/* OKNO PRO BANNER */
+#mainw #winmain #oknoban {
+	border: 1px solid #000000;
+	background: #D8D0A4;
+}
+
+/* JEDNOTLIVA OKNA PRO DATA */
+#mainw #winmain .okno, #mainw #winmain .okno_miho, #login .okno, #login .okno_miho {
+	border: 0px solid #000000;
+	background: #D8D0A4;
+	font-family: Arial;
+	font-size: 12px;
+      margin: 2px;
+      margin-bottom: 2px;
+  font-weight: normal; 
+}
+
+#mainw #winmain .okno_miho .sub_miho, #login .okno_miho .sub_miho {
+}
+
+/* RADEK PRO NADPIS OKNA */
+#mainw #winmain .okno .nadpis, #mainw #winmain .okno_miho .nadpis, #login .okno .nadpis, #login .okno_miho .nadpis {
+	background: #700000 url(../images/css/6/nadpis.gif) repeat-x left top;
+	color: #FFFFFF;
+}
+
+/* KATEGORIE V KLUBU KAM KLUB SPADA */
+#mainw #winmain .okno .nadpis .clubkat {
+	color: #999999;
+}
+#mainw #winmain .okno .nadpis .clubkat.hover, #mainw #winmain .okno .nadpis .clubkat:hover {
+	color: #999999;
+}
+
+/* ROZBALIT V BOOKU */
+.extract {
+  color: #999999;
+}
+.extract.hover, .extract:hover {
+  color: #999999;
+}
+
+/* FORMULAR V RAMCI OKNA */
+#mainw #winmain .okno form, #login .okno form {
+}
+
+/* RUZNE RADKY OKNA */
+#mainw #winmain .okno .rows, #login .okno .rows {
+}
+
+#mainw #winmain .okno .row, #mainw #winmain .okno .rowc, #mainw #winmain .okno .rown, #mainw #winmain .okno .rowe, #mainw #winmain .okno .rowp, #mainw #winmain .okno .rowp_nove, #mainw #winmain .okno .rowp_nahled, #mainw #winmain .okno .rowh, #login .okno .rowc, #login .okno .rowe, #login .okno .rowp {
+}
+
+#mainw #winmain .okno .rowp, #mainw #winmain .okno .rowp_nahled, #mainw #winmain .okno .rowp_nove, #login .okno .rowp {
+  padding: 0px; margin: 0px;
+  background: #D8D090;
+}
+
+
+#mainw #winmain .okno .row table, #mainw #winmain .okno .row td, #mainw #winmain .okno .row th, #mainw #winmain .okno .rowp table, #mainw #winmain .okno .rowp td, #mainw #winmain .okno .rowp th, #mainw #winmain .okno .rowp_nahled table, #mainw #winmain .okno .rowp_nahled td, #mainw #winmain .okno .rowp_nahled th, #mainw #winmain .okno .rowp_nove table, #mainw #winmain .okno .rowp_nove td, #mainw #winmain .okno .rowp_nove th, #mainw #winmain .okno .rowh table, #mainw #winmain .okno .rowh td, #mainw #winmain .okno .rowh th {
+}
+
+#mainw #winmain .okno .rowh td, #mainw #winmain .okno .rowh th {
+}
+
+#mainw #winmain .okno .rowh .sekce {
+}
+
+#mainw #winmain .okno .rowh .popis {
+}
+
+#mainw #winmain .okno .row th, #mainw #winmain .okno .rowp th, #mainw #winmain .okno .rowp_nahled th, #mainw #winmain .okno .rowp_nove th {
+}
+
+#mainw #winmain .okno .rowc, #mainw #winmain .okno .rowe, #login .okno .rowc, #login .okno .rowe {
+}
+
+#mainw #winmain .okno .rowe, #login .okno .rowe {
+	color: #555555;
+}
+
+#mainw #winmain .okno .rown {
+}
+
+#mainw #winmain .okno .row ul, #mainw #winmain .okno .rowp ul, #mainw #winmain .okno .rowp_nove ul, #mainw #winmain .okno .rowp_nahled ul, #mainw #winmain .okno .row .ulip, #mainw #winmain .okno .row .ulres {
+}
+
+#mainw #winmain .okno .row #infoo {
+}
+
+#mainw #winmain .okno .row .ulip {
+}
+
+#mainw #winmain .okno .row .ulres {
+}
+
+#mainw #winmain .okno .row:hover, #mainw #winmain .okno .row.hover, #mainw #winmain .okno .rowp_nahled:hover, #mainw #winmain .okno .rowp_nahled.hover, #mainw #winmain .okno .rowp_nove:hover, #mainw #winmain .okno .rowp_nove.hover, #mainw #winmain .okno .rowp:hover, #mainw #winmain .okno .rowp.hover {
+}
+
+#mainw #winmain .okno .row:hover, #mainw #winmain .okno .row.hover {
+  background: transparent;
+	color: #000000;
+}
+
+/* FOTOGALERIE A IKONY V BOOKU */
+.for_onlines {
+}
+.for_onlines .user {
+	background: #D8D0A4;
+  border: 1px solid #000000;
+}
+.for_onlines .user p {
+}
+.for_onlines .user img {
+}
+
+.for_galerka {
+}
+.for_galerka .fotka {
+  display: inline-block;
+  width: 175px;
+  height: 199px;
+	margin: 0px;
+	padding: 0px;
+}
+.for_galerka .fotka div {
+	background: #D8D0A4url(../images/css/6/foto_bg.jpg) no-repeat left top;
+  width: 165px;
+  height: 199px;
+}
+.for_galerka .fotka div .del {
+	background: #D8D0A4url(../images/css/6/foto_del.jpg) no-repeat left top;
+  width: 15px;
+  height: 15px;
+}
+.for_galerka .fotka div:hover {
+	background: #D8D0A4url(../images/css/6/foto_bg_a.jpg) no-repeat left top;
+}
+.for_galerka .fotka a img {
+  border: 1px solid #000000;
+  margin: 6px; margin-bottom: 0px;
+}
+.for_galerka .fotka a:hover img {
+  border: 1px solid #000000;
+}
+
+.for_galerka .hlasy {
+	background: #D8D090;
+  border: 1px solid #000000;
+}
+
+.for_galerka .booki {
+	background: #D8D090;
+  border: 1px solid #000000;
+}
+.for_galerka .booki a img {
+  border: 1px solid #000000;
+}
+.for_galerka .booki a:hover img {
+  border: 1px solid #000000;
+}
+
+/* RUZNE CSS */
+.icoinfo, .icospravce, .icoinfovip {
+	border: 1px solid #000000;
+}
+.icoinfovip {
+	border-bottom: 1px solid #000000;
+}
+.photoinfo {
+	border: 1px solid #000000;
+}
+.icospravce {
+}
+.vipstatus {
+	border: 0px solid #000000;
+	background: url(../images/vipbar.gif) no-repeat center top;
+}
+.vipbar {
+	background: url(../images/vipstat.gif) no-repeat left top;
+}
+.bar {
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 11px;
+}
+.bar .prubeh {
+}
+.charimg {
+	border: 1px solid #000000;
+}
+.hr {
+	border-color: #000000;
+	background: #000000;
+}
+.dhr {
+  border-bottom: 1px solid #000000;
+}
+.stext {
+	color: #555555;
+}
+
+/* Styly pro prispevky */
+#mainw #winmain .okno .rowp .linkpost, #mainw #winmain .okno .rowp_nahled .linkpost, #mainw #winmain .okno .rowp_nove .linkpost, #mainw #winmain .okno .rowp1 .linkpost, #mainw #winmain .okno .rowp2 .linkpost, #mainw #winmain .okno .rowp3 .linkpost, #login .okno .rowp .linkpost {
+	border: 0px none;
+  background: #D8D090;
+}
+
+#mainw #winmain .okno .rowp .linkpost .linx, #mainw #winmain .okno .rowp_nahled .linkpost .linx, #mainw #winmain .okno .rowp_nove .linkpost .linx, #mainw #winmain .okno .rowp1 .linkpost .linx, #mainw #winmain .okno .rowp2 .linkpost .linx, #mainw #winmain .okno .rowp3 .linkpost .linx, #login .okno .rowp .linkpost .linx {
+	border: 0px none;
+	padding-right: 40px;
+  background: #D8D090;
+}
+
+#mainw #winmain .okno .rowp .linkpost {
+	border: 0px none; _border-top: 1px solid #000000;
+	background: #D8D090;
+}
+
+#mainw #winmain .okno .rowp .linkpost .linx {
+	border: 0px none;
+	padding-right: 10px;
+  background: #D8D090;
+}
+
+#mainw #winmain .okno .rowp .icopost, #mainw #winmain .okno .rowp_nahled .icopost, #mainw #winmain .okno .rowp_nove .icopost, #mainw #winmain .okno .rowp1 .icopost, #mainw #winmain .okno .rowp2 .icopost, #mainw #winmain .okno .rowp3 .icopost, #login .okno .rowp .icopost {
+	border: 0px none;
+  background: #D8D090;
+}
+
+#mainw #winmain .okno .rowp .txtpost, #mainw #winmain .okno .rowp_nahled .txtpost, #mainw #winmain .okno .rowp_nove .txtpost, #mainw #winmain .okno .rowp1 .txtpost, #mainw #winmain .okno .rowp2 .txtpost, #mainw #winmain .okno .rowp3 .txtpost, #login .okno .rowp .txtpost {
+	border: 0px none;
+  background: #D8D090;
+}
+#mainw #winmain .okno .rowp .txtpost a, #mainw #winmain .okno .rowp_nahled .txtpost a, #mainw #winmain .okno .rowp_nove .txtpost a, #mainw #winmain .okno .rowp1 .txtpost a, #mainw #winmain .okno .rowp2 .txtpost a, #mainw #winmain .okno .rowp3 .txtpost a, #login .okno .rowp .txtpost a {
+	border: 0px none;
+      color: #500000;
+}
+
+#mainw #winmain .okno .rowp .nickpost, #mainw #winmain .okno .rowp_nahled .nickpost, #mainw #winmain .okno .rowp_nove .nickpost, #mainw #winmain .okno .rowp1 .nickpost, #mainw #winmain .okno .rowp2 .nickpost, #mainw #winmain .okno .rowp3 .nickpost, #login .okno .rowp .nickpost {
+	font-weight: bold;
+	color: #000000;
+}
+
+#mainw #winmain .okno .rowp .datepost, #mainw #winmain .okno .rowp_nahled .datepost, #mainw #winmain .okno .rowp_nove .datepost, #mainw #winmain .okno .rowp1 .datepost, #mainw #winmain .okno .rowp2 .datepost, #mainw #winmain .okno .rowp3 .datepost, #login .okno .rowp .datepost {
+	font-weight: bold;
+	color: #000000;
+}
+
+#mainw #winmain .okno .rowp .memopost, #mainw #winmain .okno .rowp_nahled .memopost, #mainw #winmain .okno .rowp_nove .memopost, #mainw #winmain .okno .rowp1 .memopost, #mainw #winmain .okno .rowp2 .memopost, #mainw #winmain .okno .rowp3 .memopost {
+	color: #000000;
+}
+
+#mainw #winmain .okno .rowp .deletepost, #mainw #winmain .okno .rowp_nahled .deletepost, #mainw #winmain .okno .rowp_nove .deletepost, #mainw #winmain .okno .rowp1 .deletepost, #mainw #winmain .okno .rowp2 .deletepost, #mainw #winmain .okno .rowp3 .deletepost {
+	color: #000000;
+}
+
+#mainw #winmain .okno .rowp .editfr, #mainw #winmain .okno .rowp_nahled .editfr, #mainw #winmain .okno .rowp_nove .editfr, #mainw #winmain .okno .rowp1 .editfr, #mainw #winmain .okno .rowp2 .editfr, #mainw #winmain .okno .rowp3 .editfr {
+	color: #000000;
+}
+
+#mainw #winmain .okno .rowp .replypost, #mainw #winmain .okno .rowp_nahled .replypost, #mainw #winmain .okno .rowp_nove .replypost, #mainw #winmain .okno .rowp1 .replypost, #mainw #winmain .okno .rowp2 .replypost, #mainw #winmain .okno .rowp3 .replypost {
+	color: #000000;
+}
+
+/* MAIL IN */
+#mainw #winmain .okno .rowp1 .nicopost, #mainw #winmain .okno .rowp1 .icopost, #mainw #winmain .okno .rowp1 .txtpost, #mainw #winmain .okno .rowp1 .linkpost .linx, #mainw #winmain .okno .rowp1 .linkpost {
+	border: 0px none;
+	background: #D8D090;
+}
+
+#mainw #winmain .okno .rowp1 .linkpost {
+	border: 0px none; _border-top: 1px solid #000000;
+	background: #D8D090;
+}
+
+#mainw #winmain .okno .rowp1 .linkpost .linx {
+	border: 0px none;
+	padding-right: 40px;
+  background: #D8D090;
+}
+
+/* MAIL OUT */
+#mainw #winmain .okno .rowp2 .icopost, #mainw #winmain .okno .rowp2 .txtpost, #mainw #winmain .okno .rowp2 .linkpost .linx, #mainw #winmain .okno .rowp2 .linkpost {
+	border: 0px none;
+  background: #D8D0A4;
+}
+
+#mainw #winmain .okno .rowp2 .linkpost {
+	border: 0px none; _border-top: 1px solid #000000;
+	background: #D8D0A4;
+}
+
+#mainw #winmain .okno .rowp2 .linkpost .linx {
+	border: 0px none;
+	padding-right: 40px;
+  background: #D8D0A4;
+}
+
+/* MEMO PRISPEVEK */
+#mainw #winmain .okno .rowp3 .icopost, #mainw #winmain .okno .rowp3 .txtpost, #mainw #winmain .okno .rowp3 .linkpost .linx, #mainw #winmain .okno .rowp3 .linkpost {
+	border: 0px none;
+  background: #FFFFFF;
+}
+
+#mainw #winmain .okno .rowp3 .linkpost {
+	border: 0px none; _border-top: 1px solid #000000;
+	background: #FFFFFF;
+}
+
+#mainw #winmain .okno .rowp3 .linkpost .linx {
+	border: 0px none;
+	padding-right: 40px;
+  background: #A00000;
+}
+
+/* NAHLED PRISPEVKU */
+#mainw #winmain .okno .rowp_nahled .icopost, #mainw #winmain .okno .rowp_nahled .txtpost, #mainw #winmain .okno .rowp_nahled .linkpost .linx, #mainw #winmain .okno .rowp_nahled .linkpost, #mainw #winmain .okno .rowp_nove .icopost, #mainw #winmain .okno .rowp_nove .txtpost, #mainw #winmain .okno .rowp_nove .linkpost .linx, #mainw #winmain .okno .rowp_nove .linkpost {
+
+	border: 0px none;
+  background: #D8D0A4;
+}
+
+#mainw #winmain .okno .rowp_nahled .linkpost {
+	border: 0px none; _border-top: 1px solid #000000;
+	background: #D8D0A4;
+}
+
+#mainw #winmain .okno .rowp_nahled .linkpost .linx {
+	border: 0px none;
+	padding-right: 40px;
+  background: #C00000;
+}
+
+#mainw #winmain .okno .rowp_nove .icopost, #mainw #winmain .okno .rowp_nove .txtpost, #mainw #winmain .okno .rowp_nove .linkpost .linx, #mainw #winmain .okno .rowp_nove .linkpost {
+	border: 0px none;
+/*  background: #D4D4D4;
+ */
+    background: #FFFFCC; /* JOEJOE */
+}
+
+#mainw #winmain .okno .rowp_nove .linkpost {
+	border: 0px none; _border-top: 1px solid #000000;
+/*	background: #D4D4D4;
+*/
+    background: #FFFFCC; /* JOEJOE */
+}
+
+#mainw #winmain .okno .rowp_nove .linkpost .linx {
+	border: 0px none;
+	padding-right: 40px;
+  background: #FFFFCC;
+}
+
+/* PRISPEVKOVE STYLY */
+.nahled {
+  color: #555555;
+  font-weight: bold;
+}
+
+.nove {
+/*  color: #555555;
+*/
+  color: red; /* JOEJOE */
+  font-weight: bold;
+}
+
+.nickprisp {
+  color: #555555;
+}
+
+.dateprisp {
+  color: #555555;
+}
+
+.linkprisp {
+  color: #555555;
+}
+
+.linkprisp:hover, .linkprisp.hover, .dateprisp:hover, .dateprisp.hover {
+  color: #555555;
+}
+
+.zavorka {
+}
+
+
+/* CSS grafy */
+.cssgraf .dny, .cssgraf .hodnoty {
+  border: 1px solid #000000;  
+  color: #000000;  
+}
+
+.cssgraf .hodnoty {
+}
+
+.cssgraf .tdbar {
+}
+
+.cssgraf .dbar {
+}
+
+.cssgraf .graf {
+  background: url(../images/cssgraf.png) repeat left bottom;
+}
+
+.hlkat, .hlsubkat {
+  font-weight: bold;
+}
+
+/* HOVER OKNO - NAHLED KLUBU, PRISPEVKU, USERA */
+#okno_div {
+  background: #e8e8e8;
+  border: 1px solid #000000;
+}
+
+.colorhover {
+  background: #e8e8e8;
+}
+
+.okno_popis, .okno_text {
+  border: 0px;
+}
+
+#okno_div .linkpost {
+}
+
+#okno_div .linkpost .linx {
+	border: 1px solid #000000; border-left: 0px;
+	border-top: 0px;
+}
+
+#okno_div .linkpost .linx .nickpost {
+	font-weight: bold;
+	color: #000000;
+}
+
+#okno_div .linkpost .linx .datepost {
+	font-weight: bold;
+	color: #000000;
+}
+
+#okno_div #info {
+  font-weight: bold;
+	color: #000000;
+}
+
+#okno_div #info2,
+#okno_div #info2n {
+	font-weight: normal;
+	color: #000000;
+}
+
+#okno_div #info2n {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+#okno_div .txtpost {
+	border: 0px none;
+}
+
+.okno_text {
+}
+
+.okno_pol {
+}
+
+#okno_ikonka {
+}
+
+/* SEKCE KATEGORIE */
+/* prvni bunky - Obrazek kategorie, odsazeni */
+.hlkat0_0, .hlkat0_0_n {
+}
+.hlkat1_0, .hlkat1_0_n {
+}
+.hlkat2_0, .hlkat2_0_n {
+}
+
+/* TO SAME JEN PRO USERY BEZ OBRAZKU */
+.hlkat0_0_n {
+}
+.hlkat1_0_n {
+}
+.hlkat2_0_n {
+}
+/* Bunky s textama v Kategoriich - Hlavni kat, podkat, Klub */
+.hlkat0_1, .hlkat1_1, .hlkat2_1 {
+}
+.hlkat0_1 {
+}
+.hlkat2_1 {
+}
+.hlkat2_1 .owner {
+}
+.hlkat2_1 .pocet {
+}
+.hlkat2_1 .info {
+}
+.hlkat2_1 .newsp {
+	color: #500000;
+}
+/* Posledni bunky v kategorii */
+.hlkat0_2, .hlkat1_2, .hlkat2_2 {
+}
+.katimg, .katico {
+}
+
+.katico {
+  border: 1px solid #000000;
+}
+
+
+/* RADKY V BOOKU */
+.bookrow {
+  border: 1px solid #999999;
+}
+/* odkaz do klubu */
+.bookrow .klub {
+}
+/* pocet prispevku v klubu */
+.bookrow .pocet {
+  font-weight: normal;
+  color: #500000;
+}
+.bookrow .newsp {
+  font-weight: bold;
+/*  color: #500000;
+*/
+  color: red; /* JOEJOE */
+}
+/* datum zalozeni klubu */
+.bookrow .datum {
+  color: #500000;
+}
+.bookrow .info {
+  font-weight: bold;
+  color: #500000;
+}
+/* vlastnik klubu */
+.bookrow .owner {
+  font-weight: bold;
+}
+/* Vlozeni smajlika do textu */
+.smiley {
+  cursor: pointer;
+}
+
+/* MiHo */
+#mainw #winmain .okno_miho {
+  background: #D8D0A4;
+}
+
+#mainw #winmain .okno_miho h1 {
+}
+
+#mainw #winmain .okno_miho .nadpis .clubkat {
+}
+
+#mainw #winmain .okno_miho .nadpis .clubkat.hover, #mainw #winmain .okno_miho .nadpis .clubkat:hover {
+}
+
+/* ONLINE V KLUBU */
+#mainw #winmain .okno .onlines {
+}
+
+#mainw #winmain .okno .onlines li {
+}
+
+#mainw #winmain .okno .onlines li>div {
+}
+
+#mainw #winmain .okno .onlines img {
+}
+
+#mainw #winmain .okno .onlines .nick {
+}
+#mainw #winmain .okno .onlines .nick .cas {
+}
+
+.nvoted {
+	color: #500000;
+}
+.avoted {
+}
+.caps {
+}
+.sloupecl {
+}
+.sloupec {
+}
+.volby {
+}
+.opt {
+}
+.hlas {
+}
+.procent {
+}
+.voters {
+}
+.pollinfo {
+}
+.na {
+  color: #555555;
+}
+.na:hover {
+  color: #555555;
+}
+
+/* Vysledky ankety */
+#mainw #winmain .okno .results {
+}
+
+#mainw #winmain .okno .results li {
+}
+
+#mainw #winmain .okno .results li>div {
+}
+
+#mainw #winmain .okno .results .pozice, #mainw #winmain .okno .results .user {
+}
+
+#mainw #winmain .okno .results .user {
+}
+.spaw2toolbar, .spaw2statusbar {
+}
+.spaw2status {
+}
+.ahead {
+  font-weight: bold;
+  color: #0000FF;
+}
+.hlkatedit {
+  color: #FF0000;
+  font-weight: bold;
+}
+/* REKLAMA NA KLUB v KLUBU */
+.rekl_club {
+  border: 1px solid #000000;
+}
+.rekl_club:hover {
+  border: 1px solid #000000;
+}
+
+/* PRAVA STRANA INFO */
+#liveinfo {
+	border: 0px solid #000000; border-top: 0px;
+}
+
+#liveinfo .okno {
+  background: #256084;
+	color: #FFFFFF;
+	border: 1px solid #000000;
+}
+
+#liveinfo .okno .nadpis {
+	background: #C00000;
+	color: #000000;
+	border-bottom: 1px solid #000000;
+}
+
+#liveinfo .okno p {
+}
+.katloader {
+  width: 200px;
+  height: 8px;
+  line-height: 0px;
+  background: transparent url(../images/css/3/load.gif) no-repeat left top;
+}
